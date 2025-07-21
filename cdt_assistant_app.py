@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load CDT knowledge base
-cdt_df = pd.read_csv("C:\\Users\\satis\\Downloads\\CDT_AI_Training_100_New_Rows.csv")
+cdt_df = pd.read_csv("CDT_AI_Training_100_New_Rows.csv")
 cdt_df.fillna("", inplace=True)
 
 # Secure API Key and OpenRouter endpoint
